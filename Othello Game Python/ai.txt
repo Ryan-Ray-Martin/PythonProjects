@@ -1,0 +1,45 @@
+Ryan Martin
+Dr. Mullen
+CS 5001
+12/05/2018
+
+
+Did you attempt to make your computer player very smart -- i.e., do something more clever than just pick
+a random legal move?
+
+Rather than just implementing a naive AI with a random number generator, I chose to take the "high road"
+and create an algorithm which would serve as a decision tree. This decision tree is
+essentially a group of booleans which the AI can execute given certain conditions, such as a when there are
+available valid moves at certain locations. These certain locations include a ranking system with the best 
+moves possible listed at the top of the boolean function ("decision tree"). The best moves are considered
+corners and edges because these spots on the board usually result in the highest scoring moves to win the game.
+
+If so, were you able to accomplish this? Is your computer player as smart as you would like?
+
+I believe I was somewhat able to accomplish this because the AI can beat a human player if the human
+player does not use a strategy of capturing edges and corners. In fact, playing this AI without that strategy
+would result in a loss. 
+
+How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+
+The AI algorithm worked like this:
+get list of valid moves on 2D grid.
+for all valid moves on 2D grid:
+if there is a corner open, place piece on corner
+if there is an edge open, place piece on edge
+if there is a space near the edge open, place piece near edge
+-capture pieces will be flipped
+-player will go again if no valid moves for other player are available
+
+How often did your computer program beat you, or your friends, or whoever tested it out for you?
+
+The computer program beat me a few times at first, but after I started using the computer's strategy 
+I started winning. I let my wife play the game, and she actually enjoyed playing it. I hope you'll 
+have fun playing it as well. 
+
+How would you improve it in the future?
+
+I would try to make the graphics better by making the player pieces more three dimensional. I also
+noticed that in the online game of Othello there is a feature where a shadow lights up a valid square
+to make the game easier on the player. I think that would be an interesting method to create when 
+I have more time to work on this. 

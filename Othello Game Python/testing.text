@@ -1,0 +1,30 @@
+Ryan Martin
+Dr. Mullen
+CS5001
+11/21/2018
+
+
+Description of test suite:
+
+The test suite in the Othello program is quite similar to
+the test suit in the Pacman program. 
+
+The specifications of the game that are tested include the
+number of spaces that remain after a player moves, so this 
+tests the effectiveness of the game controller class and 
+start game method.
+
+The edge cases for this test involve testing how many spaces remain
+if no player moves (12), and how many spaces remain when all the spaces
+are filled up (0). Since this is only a 4 X 4 grid, only those edge
+cases and a few others are needed. 
+
+In addition, the display in the move class must be tested as well
+to ensure the players turns are following game logic, so after
+the black gamepiece is placed, a white gamepiece must be placed.
+This test basically just tests the boolean which represents
+the black and white player gamepieces. The edge case in this test
+is when all spaces are filled up, the assertion must show None, 
+since no players will be making a move here. 
+
+That concludes the test suite.

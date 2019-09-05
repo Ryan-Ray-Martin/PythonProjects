@@ -1,0 +1,11 @@
+[
+  "othello_game/test_game_controller.py::test_constructor",
+  "othello_game/test_game_controller.py::test_valid_helper",
+  "othello_game/test_game_controller.py::test_on_edge",
+  "othello_game/test_game_controller.py::test_on_corner",
+  "othello_game/test_game_controller.py::test_on_third",
+  "othello_game/test_game_controller.py::test_valid_move",
+  "othello_game/test_game_controller.py::test_current_color",
+  "othello_game/test_game_controller.py::test_other_color",
+  "othello_game/test_piece.py::test_constructor"
+]
